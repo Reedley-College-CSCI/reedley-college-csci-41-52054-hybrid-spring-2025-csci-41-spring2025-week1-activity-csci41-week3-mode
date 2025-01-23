@@ -8,9 +8,10 @@ int main()
     const int SIZE = 10;    // Number of elements
     int count;              // Loop counter
 
-    // Create a SimpleVector of ints.
+    // Create 2 SimpleVector's of ints.
     SimpleVector<int> intTable(SIZE);
-
+    SimpleVector<int> intTable2(SIZE);
+    
     // Create a SimpleVector of doubles.
     SimpleVector<double> doubleTable(SIZE);
 
@@ -18,6 +19,7 @@ int main()
     for (count = 0; count < SIZE; count++)
     {
         intTable[count] = (count * 2);
+        intTable2[count] = (count * 3);
         doubleTable[count] = (count * 2.14);
     }
 
@@ -26,6 +28,12 @@ int main()
     for (count = 0; count < SIZE; count++)
         cout << intTable[count] << " ";
     cout << endl;
+    
+    cout << "These values are in intTable2:\n";
+    for (count = 0; count < SIZE; count++)
+        cout << intTable2[count] << " ";
+    cout << endl;
+    
     cout << "These values are in doubleTable:\n";
     for (count = 0; count < SIZE; count++)
         cout << doubleTable[count] << " ";
