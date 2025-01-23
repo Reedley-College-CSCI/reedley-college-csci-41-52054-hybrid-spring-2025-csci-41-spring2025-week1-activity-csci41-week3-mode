@@ -8,7 +8,7 @@ int main()
     const int SIZE = 10;    // Number of elements
     int count;              // Loop counter
 
-    // Create two SimpleVector of ints.
+    // Create two SimpleVectors of ints.
     SimpleVector<int> intTable(SIZE);
     SimpleVector<int> intTable2(SIZE);
 
