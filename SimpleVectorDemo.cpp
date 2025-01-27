@@ -1,4 +1,4 @@
-// Marcelino Salazar
+// Marcelino Salazars
 // CSCI-41 Lab 1 Part 2
 
 // This program demonstrates the SimpleVector template.
